@@ -1,0 +1,59 @@
+#
+# from device/sprd/sharkl3/s9863a1h10/system.prop
+#
+# Default density config
+#ro.sf.lcd_density=320
+#ro.sf.lcd_width=54
+#ro.sf.lcd_height=96
+ro.product.hardware=s9863a1h10
+# Set Opengl ES Version
+#ro.opengles.version=196609
+# ro.fm.chip.port.UART.androidm=true
+# FRP property for pst device
+ro.frp.pst=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist
+#enable audio nr tuning
+ro.audio_tunning.nr=1
+#set low battery level for disable flash
+persist.sys.cam.battery.flash = 15
+#Enable sdcardfs feature
+ro.sys.sdcardfs=true
+persist.sys.sdcardfs=force_on
+#enable hdr+normal pic mode
+persist.sys.cam.normalhdr=true
+persist.sys.cam.refocus.enable=false
+persist.sys.cam.ba.blur.version=3
+persist.sys.cam.blur.cov.id=0
+persist.sys.cam3.type=back_blur
+persist.sys.cam3.multi.cam.id=12
+persist.sys.cam.api.version=0
+persist.sys.blending.enable=true
+persist.sys.sprd.refocus.bokeh=true
+#face_beauty lib   0--close_fb  1--srcsoft  2--sprd
+persist.sys.cam.facebeauty.corp=2
+#sprd_fb lib feature switch  0--part func  1--full func
+persist.sys.cam.beauty.fullfuc=false
+persist.sys.cam.fr.blur.version=1
+#eis function
+persist.sys.cam.eois.dc.back=false
+persist.sys.cam.eois.dc.front=false
+persist.sys.cam.eois.dv.back=false
+persist.sys.cam.eois.dv.front=false
+#enable 3d calibration
+persist.sys.3d.calibraion=1
+qemu.hw.mainkeys=0
+persist.sys.timezone=Asia/Jakarta
+ro.com.google.apphider=off
+ro.com.android.mobiledata=false
+ro.config.media_vol_steps=15
+ro.config.media_vol_default=10
+persist.hascutout=true
+persist.sys.cam.zsl=true
+persist.sys.gesture_fmradio=0
+persist.sys.gesture_keyguard=-1
+persist.sys.gesture_pcontacts=-1
+persist.sys.gesture_phone=-1
+persist.sys.gesture_switch=0
+persist.sys.fp_switch=0
+persist.sys.fp_camera=0
+ro.fota.pp=1
+#
